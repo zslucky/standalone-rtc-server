@@ -7,7 +7,7 @@ const argvOptions = require('./argv.config.js');
 const args = argv.option(argvOptions).run();
 const port = args.options.port || 3000;
 
-io.set('origins': '*:*');
+io.set('origins', '*:*');
 
 const roomClientsMap = {};
 
