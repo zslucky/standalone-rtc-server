@@ -1,0 +1,31 @@
+{
+  "name": "standalone-rtc-server",
+  "version": "0.0.1",
+  "description": "A standalone rtc srever running on socket.io",
+  "main": "index.js",
+  "scripts": {
+    "lint": "freelint",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zslucky/standalone-rtc-server.git"
+  },
+  "keywords": [
+    "WebRTC"
+  ],
+  "author": "lucky zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zslucky/standalone-rtc-server/issues"
+  },
+  "homepage": "https://github.com/zslucky/standalone-rtc-server#readme",
+  "dependencies": {
+    "argv": "^0.0.2",
+    "lodash": "^4.17.2",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "freelint": "^3.1.1"
+  }
+}
