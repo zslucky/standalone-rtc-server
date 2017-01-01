@@ -1,7 +1,7 @@
 {
   "name": "standalone-rtc-server",
   "version": "0.0.1",
-  "description": "A standalone rtc srever running on socket.io",
+  "description": "A standalone rtc singaling srever running on nodejs with socket.io",
   "main": "index.js",
   "scripts": {
     "lint": "freelint",
