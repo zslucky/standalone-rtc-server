@@ -1,6 +1,6 @@
 # standalone-rtc-server
 
-A standalone rtc srever running on socket.io
+A standalone rtc singaling srever running on nodejs with socket.io
 
 ## Listened Events
 
